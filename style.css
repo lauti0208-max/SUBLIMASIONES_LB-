@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+/* caracteristicas de caruseles*/
+
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+    gap: 3%;
+}
+
+.carousel__item {
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.flecha {
+  width: 5.50%;
+   height: auto;
+}
+
+.insta {
+  width: 5.50%;
+   height: auto;
+}
+
+.image {
+  margin: 77px 0px 77px 0px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 100px;
+  margin: 77px 0px 17px 707px;
+}
+
+.M_D_F {
+  margin: 77px 0px 17px 825px;
+}
+
+.Según {
+  margin: 77px 0px -44px 507px;
+}
+
+.Según_2 {
+  margin: 77px 0px -44px 650px;
+}
+
+.Consultar{
+  font-size: 30px;
+}
+
+/* fin de caracteristicas de caruseles*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  background:#FAAEEC;
+  color: #000000;
+}
+
+p {
+  margin: -77px 624px 50px 641px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 2;
+}
+
+h2 {
+    margin: -46px 0px 72px 829px;
+    line-height: 1;
+}
+
+h1 {
+  margin: 0px 0px 0px 201px;
+  font-weight: 700;
+  font-size: 100px;
+  background-color: purple;
+  color: #cc8bf2;
+  
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  font-size: 42px;
+}
+
+img {
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s;
+  margin: 17px -133px 0px 850px;
+}
+
+ul {
+  list-style: none;
+  margin: 17px -133px 0px 850px;
+  padding: 0;
+}
+
+.contac {
+  margin: 0px 0px 0px 850px;
+
+}
+
+.produt {
+  margin: 0px 0px 0px 810px;
+}
+
+.mas {
+  margin: 0px 0px 45px 850px;
+}
+
+/* caracteristicas de las imagenes*/
+
+.img_inisio {
+    width: 100%; /* ocupa todo el ancho*/
+    height: auto; /* ajusta el alto proporsionalmente*/
+    max-height: 800px;
+    object-fit: cover;
+    display:block;/* elimina espasios extra debajo*/
+
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center; /*alineación central*/
+    margin: 17px 624px 50px 696px;
+
+}
+
+
+.contenedor {
+    width: 600px;       /* tamaño del bloque */
+    margin: 20px auto;  /* centrar en la página */
+    text-align: center; /* centrar texto */
+    }
+
+.contenedor img {
+    width: 100%;        /* que la imagen se adapte */
+    border-radius: 8px; /* esquinas redondeadas opcional */
+}
+
+.texto {
+    background-color: rgba(116, 9, 107, 0.7); /* fondo con opacidad */
+    color: rgb(0, 0, 0);        /* color del texto */
+    padding: 10px;       /* espacio interno */
+    border-radius: 0 0 8px 8px; /* redondear solo abajo */
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.texto1 {
+    background-color: rgba(116, 9, 107, 0.7); /* fondo con opacidad */
+    color: rgb(0, 0, 0);        /* color del texto */
+    padding: 10px;       /* espacio interno */
+    border-radius: 0 0 8px 8px; /* redondear solo abajo */
+    font-size: 30px;
+     line-height: 1.5;
+}
+
+.texto2 {
+    background-color: rgba(116, 9, 107, 0.7); /* fondo con opacidad */
+    color: rgb(0, 0, 0);        /* color del texto */
+    padding: 10px;       /* espacio interno */
+    border-radius: 0 0 8px 8px; /* redondear solo abajo */
+    font-size: 28px;
+     line-height: 1.5;
+}
+
+/* fin de las caracteristicas de las imagenes*/
+
+.footer {
+      width: 100%;              /* ocupa todo el ancho */
+      background-color: purple; /* color del footer */
+      color: rgb(0, 0, 0);             /* color del texto */
+      text-align: center;       /* centrar texto */
+      padding: 20px;            /* espacio interno */
+      bottom: 0;
+      left: 0;
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  width: 100%;
+  background-color: purple;
+}
+
+.main-list {
+  display: flex;
+  gap: 150px;
+}
+
+.list-item__link {
+  position: relative;
+  font-size: 26px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 0px -2400px;
+
+}
+
+.list-item__link::after {
+  position: absolute;
+  transition: 0.2s;
+  content: "";
+  border-radius: 10px;
+  width: 55%;
+  height: 3px;
+  bottom: -12px;
+  background: #a178b9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.list-item__link:hover::after {
+  width: 100%;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/developer.png);
+  background-size: cover;
+  padding: 10vh 10vw 80vh 10vw;
+  background-position: center bottom;
+  gap: 20px;
+}
+
+.home__title {
+  letter-spacing: 0.3em;
+  font-size: 70px;
+  text-align: center;
+  color: #a178b9;
+  line-height: 1;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1;
+}
+
+.about {
+  margin-bottom: 200px;
+}
+
+.about__title {
+  font-size: 60px;
+  position: relative;
+  text-align: left;
+  color: #cc8bf2;
+  line-height: 1;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-bottom: 60px;
+}
+
+.about__title::after {
+  position: absolute;
+  content: "";
+  border-radius: 10px;
+  width: 60%;
+  height: 1px;
+  bottom: -13px;
+  background: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-block__text {
+  width: 40%;
+}
+
+.info-block__img {
+  align-self: center;
+}
+
+/*Una consulta de medios para un ancho de 320 px: dispositivos móviles*
+@media (min-width: 320px) {
+	
+  .produt {
+    margin: 0px 0px 0px 300px;
+  }
+
+  .img_inisio {
+    width: 276%;
+    max-height: 684%;
+  }
+
+  .mas {
+    margin: 0px 0px 45px 385px;
+  }
+
+  .contac {
+    margin: 0px 0px 0px 333px;
+  }
+
+  h1 {
+    margin: 0px 0px 0px 404px;
+  }
+
+  .contenedor {
+    margin: 20px 0px 0px 173px;
+  }
+
+  .list-item__link {
+    position: relative;
+    font-size: 26px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 0px -1455px;
+  }
+
+  .footer {
+    width: 265%;
+    background-color: purple;
+    padding: 20px;
+  }
+
+}
+
+/*Una consulta de medios para un ancho de 768 px: tabletas
+@media (min-width: 768px) {
+    /*Estilos para el ancho mínimo de 768px
+}
+
+/*Una consulta de medios para un ancho de 1200 px: escritorios
+@media (min-width: 1200px) {
+    /*Estilos para el ancho mínimo de 1200px
+}
+
+/*Una consulta de medios para un ancho de 1400 px: pantallas anchas
+@media (min-width: 1400px) {
+    /*Estilos para el ancho mínimo de 1400px
+}*/
